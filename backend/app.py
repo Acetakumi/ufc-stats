@@ -10,7 +10,7 @@ def fetch(url):
 
 app = Flask(__name__)
 
-@app.route("/nigger")
+@app.route("/")
 def index():
     rankings = fetch("https://api.octagon-api.com/rankings")
     return buildFighter()
